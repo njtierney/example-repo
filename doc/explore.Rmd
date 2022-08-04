@@ -1,6 +1,6 @@
 ---
-title: "Untitled Draft"
-author: "Report Author"
+title: "Exploratory Data Analyis"
+author: "Nick Tierney"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
 ---
@@ -27,6 +27,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Analysis
+
+```{r}
+image(volcano)
+```
+
 
 ## Reproducibility
 
